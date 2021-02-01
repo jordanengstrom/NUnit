@@ -6,6 +6,7 @@ using System.Text;
 
 namespace Loans.Tests
 {
+    [TestFixture]
     public class ProductComparerShould
     {
         [Test]
