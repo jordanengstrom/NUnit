@@ -10,6 +10,7 @@ namespace Loans.Tests
     public class MonthlyRepaymentComparisonShould
     {
         [Test]
+        [Category("Product Comparison")]
         public void RespectValueEquality()
         {
             var a = new MonthlyRepaymentComparison("a", 42.42m, 22.22m);
@@ -19,6 +20,7 @@ namespace Loans.Tests
         }
 
         [Test]
+        [Category("Product Comparison")]
         public void RespectValueInequality()
         {
             var a = new MonthlyRepaymentComparison("a", 42.42m, 22.22m);
